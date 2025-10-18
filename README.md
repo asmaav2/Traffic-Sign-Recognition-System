@@ -2,12 +2,12 @@
 This project focuses on classifying traffic signs from the German Traffic Sign Recognition Benchmark (GTSRB) dataset using deep learning. It demonstrates how computer vision and neural networks can be used to identify and understand real-world road signs a critical component of intelligent transportation systems and autonomous vehicles.
 
 ## Table Of Content
-Brief
-Dataset
-How_It_Works
-Tools
-Model_Performance
-Remarks
+#brief[Brief]
+#dataset[Dataset]
+#how_it_works[How_It_Works]
+#tools[Tools]
+#model_performance[Model_Performance]
+#remarks[Remarks]
 
 ## Brief
 The goal of this project is to build and deploy a robust deep learning model capable of recognizing and classifying different types of traffic signs with high accuracy.
