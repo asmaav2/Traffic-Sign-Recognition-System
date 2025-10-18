@@ -1,7 +1,7 @@
 # Traffic-Sign-Recognition-System
 This project focuses on classifying traffic signs from the German Traffic Sign Recognition Benchmark (GTSRB) dataset using deep learning. It demonstrates how computer vision and neural networks can be used to identify and understand real-world road signs a critical component of intelligent transportation systems and autonomous vehicles.
 
-Table Of Content
+## Table Of Content
 Brief
 Dataset
 How_It_Works
@@ -9,17 +9,17 @@ Tools
 Model_Performance
 Remarks
 
-Brief
+## Brief
 The goal of this project is to build and deploy a robust deep learning model capable of recognizing and classifying different types of traffic signs with high accuracy.
 
 Using a Convolutional Neural Network (CNN) and Transfer Learning (MobileNetV2), the model is trained on thousands of labeled traffic sign images. The system includes steps for preprocessing, data augmentation, model optimization, and deployment using Streamlit for interactive testing.
 
 While the model performs well, its accuracy might vary slightly depending on the training setup — but it remains highly reliable and efficient for most real-world scenarios.
 
-Dataset
+## Dataset
 The dataset used is the GTSRB (German Traffic Sign Recognition Benchmark), available on Kaggle.
 
-Overview
+## Overview
 Total Images: Over 50,000 labeled images of German traffic signs.
 Number of Classes: 43 unique traffic sign categories (e.g., speed limits, stop signs, warnings).
 Image Type: Color images (RGB).
@@ -28,7 +28,7 @@ Variability: The dataset includes images taken under different lighting conditio
 
 
 
-How_It_Works
+## How_It_Works
 Data Loading: Reads all images from the dataset folder and extracts corresponding class labels.
 Preprocessing:
 Converts images from BGR to RGB.
@@ -44,7 +44,7 @@ Evaluation: Measures accuracy, precision, recall, and F1-score. A confusion matr
 Deployment: The trained model is saved and used in a Streamlit app that allows users to upload a traffic sign image for prediction.
 
 
-Tools
+## Tools
 Python
 TensorFlow / Keras
 OpenCV
@@ -53,7 +53,7 @@ Matplotlib, Seaborn
 scikit-learn
 Streamlit / pyngrok
 
-Model_Performance
+## Model_Performance
 After hyperparameter tuning and data augmentation, the optimized CNN achieved strong results:
 
 Accuracy: ~98%
@@ -62,6 +62,6 @@ Recall: ~96%
 F1-Score: ~96% Performance may vary based on training time and GPU availability, but the results remain consistent and robust across multiple runs.
 
 
-Remarks
+## Remarks
 This project showcases how deep learning can be effectively applied to real-world image classification tasks. The trained model performs with strong accuracy and stability, making it a reliable starting point for any traffic sign recognition system. Although performance might slightly vary depending on training time and hardware, it remains a robust and practical solution for most use cases.
 
